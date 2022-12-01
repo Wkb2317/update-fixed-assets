@@ -1,0 +1,15 @@
+update fixed_assets set assets_name='桌子',assets_config='木制  1.6m',
+    count='1',assets_cause='正常使用',address='生产安全部',department='生产安全部' 
+    where fixed_assets_number = 'ZWB00120';
+update fixed_assets set assets_name='桌子',assets_config='木制 1.6m',
+    count='1',assets_cause='正常使用',address='技术部',department='技术部' 
+    where fixed_assets_number = 'ZWB00147';
+update fixed_assets set assets_name='打印机',assets_config='惠普',
+    count='1',assets_cause='正常使用',address='昆山办事处办公室',department='昆山办事处' 
+    where fixed_assets_number = 'ZWB00132';
+update fixed_assets set assets_name='打印机',assets_config='惠普1106',
+    count='1',assets_cause='正常使用',address='苏州办事处 仓库',department='综合部' 
+    where fixed_assets_number = 'ZWB00288';
+update fixed_assets set assets_name='打印机',assets_config='震旦',
+    count='1',assets_cause='正常使用',address='苏州办事处 仓库',department='综合部' 
+    where fixed_assets_number = 'ZWB00158';
